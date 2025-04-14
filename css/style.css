@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: IBM Plex Mono;
+    background-color: #bfb08e;
+    background-size: 20px 20px;
+    background-image: repeating-linear-gradient(0deg, #9b9b9b, #9b9b9b 1px, #bfb08e 1px, #bfb08e);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* wrapper */
+
+.wrapper {
+    margin: 3em auto;
+    max-width: 800px;
+
+
+}
+
+/* Header */
+
+header {
+    max-width: 800px;
+    height: 290px;
+    background-image: url("/images/header.avif");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/* Navigation */
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+
+    li {
+        background-color: rgb(208, 203, 183);
+        padding: .5em 2.8em;
+        color: rgb(104, 102, 99);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .active {
+        background-color: rgb(238, 238, 230);
+        font-weight: 700;
+
+    }
+
+
+    a {
+        color: rgb(91, 90, 71);
+    }
+}
+
+main {
+    background-color: rgb(238, 238, 230);
+    padding: 2em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+section {
+    display: flex;
+    font-size: 13px;
+    gap: 1em;
+    margin-top: 20px;
+
+    img {
+        border-radius: 20px;
+        max-height: 100px;
+    }
+}
