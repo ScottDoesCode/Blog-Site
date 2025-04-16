@@ -82,3 +82,18 @@ section {
         max-height: 100px;
     }
 }
+
+/* Footer */
+
+.footer_links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.footer_copy {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
