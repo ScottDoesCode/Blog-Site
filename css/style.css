@@ -52,10 +52,14 @@ header {
         border-top-right-radius: 10px;
     }
 
+    a:hover {
+        filter: grayscale(100);
+    }
+
+
     .active {
         background-color: rgb(238, 238, 230);
         font-weight: 700;
-
     }
 
 
